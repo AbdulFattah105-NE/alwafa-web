@@ -487,6 +487,11 @@ html, body {
     color: #FFFFFF;
 }
 
+.link-thumb-yt {
+    background: linear-gradient(135deg, #ff0033, #cc0000);
+    color: #FFFFFF;
+}
+
 .link-thumb-email {
     position: relative;
     z-index: 1;
