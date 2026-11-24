@@ -816,6 +816,20 @@ html, body {
     border-radius: 0.75rem;
 }
 
+body.modal-open {
+    overflow: hidden;
+}
+
+.copy-fallback-input {
+    position: fixed;
+    top: 0;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
 @media (max-width: 640px) {
     .profile-title {
         font-size: 1.5rem;
